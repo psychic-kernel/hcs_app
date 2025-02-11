@@ -3,7 +3,7 @@
 1. User Entities
 
 Patients 
-(ID, 
+ID, 
 name, 
 DOB, 
 gender, 
@@ -14,7 +14,7 @@ profile picture,
 medical history, 
 allergies, 
 insurance details, 
-preferred doctor)
+preferred doctor
 
 Doctors 
 (ID, 
