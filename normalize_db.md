@@ -57,9 +57,8 @@ contact details)
 # User Credentials 
 (user ID, 
 password hash, 
-OAuth tokens, 
-last login, 
-2FA status)
+jw tokens, 
+last login)
 
 # Session Logs 
 (session ID, 
