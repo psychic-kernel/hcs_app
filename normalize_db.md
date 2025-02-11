@@ -3,7 +3,7 @@
 1. User Entities
 
 Patients 
-ID, 
+- ID, 
 name, 
 DOB, 
 gender, 
