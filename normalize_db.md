@@ -55,12 +55,14 @@ contact details)
 2. Authentication & Security
 
 # User Credentials 
+
 (user ID, 
 password hash, 
 jw tokens, 
 last login)
 
 # Session Logs 
+
 (session ID, 
 user ID, 
 IP address, 
@@ -69,12 +71,14 @@ logout time,
 device info)
 
 # Access Control 
+
 (user ID, 
 role, 
 permissions, 
 status)
 
 # Audit Logs 
+
 (log ID, 
 user ID, 
 action type, 
@@ -85,6 +89,7 @@ affected entity)
 3. Appointments & Scheduling
 
 # Appointments 
+
 (appointment ID, 
 patient ID, 
 doctor ID, 
@@ -96,12 +101,14 @@ notes,
 prescription ID)
 
 # Doctor Availability 
+
 (doctor ID, 
 available days/times, 
 holidays, 
 max appointments per day)
 
 # Reminders 
+
 (reminder ID, 
 user ID, 
 appointment ID, 
@@ -113,6 +120,7 @@ timestamp)
 4. Communication & Interaction
 
 # Messages 
+
 (message ID, 
 sender ID, 
 receiver ID, 
@@ -121,6 +129,7 @@ timestamp,
 read status)
 
 # Video Calls 
+
 (call ID, 
 patient ID, 
 doctor ID, 
@@ -130,18 +139,27 @@ duration,
 recording link)
 
 # Chatbot Interactions 
+
 (interaction ID, user ID, query, AI response, timestamp)
 
 
 5. Medical Records & Prescriptions
 
-# Medical Reports (report ID, patient ID, doctor ID, file URL, upload date, description)
+# Medical Reports 
 
-# Prescriptions (prescription ID, patient ID, doctor ID, medication list, dosage, duration, notes, issued date)
+(report ID, patient ID, doctor ID, file URL, upload date, description)
 
-# Test Results (test ID, patient ID, doctor ID, lab name, test type, result, report file URL, test date)
+# Prescriptions 
 
-# Allergies & Conditions (record ID, patient ID, condition name, severity, notes, diagnosis date)
+(prescription ID, patient ID, doctor ID, medication list, dosage, duration, notes, issued date)
+
+# Test Results 
+
+(test ID, patient ID, doctor ID, lab name, test type, result, report file URL, test date)
+
+# Allergies & Conditions 
+
+(record ID, patient ID, condition name, severity, notes, diagnosis date)
 
 
 6. Billing & Payments
